@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(54, 238, 168);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.gift-img {
+  height: 300px;
+  margin: 20px;
+}
+.text {
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  transform: translate(0, 0);
+}
+.button {
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+}
